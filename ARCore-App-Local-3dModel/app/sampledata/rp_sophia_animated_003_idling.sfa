@@ -1,0 +1,63 @@
+{
+  materials: [
+    {
+      name: 'rp_sophia_animated_003_mat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'rp_sophia_animated_003_dif',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/rp_sophia_animated_003_idling.FBX',
+    name: 'rp_sophia_animated_003_idling',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\rp_sophia_animated_003_idling.fbm\\rp_sophia_animated_003_dif.jpg',
+      name: 'rp_sophia_animated_003_dif',
+      pipeline_name: 'rp_sophia_animated_003_idling.fbm\\rp_sophia_animated_003_dif.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

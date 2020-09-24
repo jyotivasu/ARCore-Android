@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'rp_nathan_animated_003_walking',
+        },
+      ],
+      path: 'sampledata/rp_nathan_animated_003_walking.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'rp_nathan_animated_003_mat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'rp_nathan_animated_003_dif',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/rp_nathan_animated_003_walking.fbx',
+    name: 'rp_nathan_animated_003_walking',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\rp_nathan_animated_003_walking.fbm\\rp_nathan_animated_003_dif.jpg',
+      name: 'rp_nathan_animated_003_dif',
+      pipeline_name: 'rp_nathan_animated_003_walking.fbm\\rp_nathan_animated_003_dif.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
